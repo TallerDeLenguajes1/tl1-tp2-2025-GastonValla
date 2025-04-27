@@ -1,0 +1,4 @@
+(2.f) Al volver a la rama main, cuando ya creamos un archivo en "opcion 2", este último no se ve porque solo está guardado en los cambios de la rama en la que ahora no estamos trabajando.
+
+Una vez creamos otro archivo o modificamos uno existente también en la rama main, las dos ramas se ven en el gráfico como cambios independientes del mismo proyecto.
+Cuando hacemos "merge" entre ambas ramas estas se juntan, y los cambios se unen. Se ve en el source control como una unión entre los últimos nodos de cambio de cada rama.
